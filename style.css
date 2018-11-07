@@ -68,7 +68,7 @@ a[role=button] {
     background: #fff;
     padding: 30px;
 }
-.main-content a:link {
+.main-content a:link, .main-content a:visited {
     color: #C1272A;
     text-decoration: underline;
 }
@@ -78,13 +78,18 @@ a[role=button] {
 ul li {
     margin-bottom: 10px;
 }
+.top-img img {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
 .footer {
     background: #000;
     padding: 30px;
     color: #fff;
     font-size: 15px;
 }
-.footer a:link {
+.footer a:link, .footer a:visited {
     color: #fff;
     border-bottom: 1px dotted #555;
 }
