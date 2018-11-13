@@ -62,6 +62,11 @@ a[role=button] {
     color: #fff;
     background: #333;
 }
+.breadcrumb {
+    background: #ebebeb;
+    font-size: 15px;
+    padding: 8px;
+}
 .main-content {
     max-width: 1000px;
     min-height: 50vh;
